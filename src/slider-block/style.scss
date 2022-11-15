@@ -1,0 +1,192 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+ @media only screen and (min-width:992px ) {	
+	.slicky-slider-award-complishment-block {
+		max-width: 95%!important;
+		padding-left: 131px;
+	}
+}
+.everise-slicky-block {
+	padding: 20px;
+	background: #f3f3f3;
+	margin-bottom: 1em;
+    border-radius: 10px;
+	min-height: 160px;
+}
+
+
+.slicky-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 30px;
+	gap: 20px;
+	width: 325px;
+	height: 400px;
+	/* Bases/Light Grey */
+	border-radius: 10px;
+	
+}
+.slicky-item {
+	background: #F8F8F8;
+}
+.slicky-url{
+	text-decoration: none;
+}
+.slicky-text {
+/* ones */
+
+
+width: 265.33px;
+height: 42px;
+
+/* Desktop/Footnote */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* Black & White/100% */
+
+color: #231F20;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.slicky-author-container {
+	position: absolute;
+    bottom: 14px;
+}
+.slicky-author-text {
+	width: 139px;
+height: 23px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+/* Black & White/100% */
+
+color: #231F20;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+span.slicky-content {
+	width: 265.33px;
+	height: 62px;
+	
+	/* Desktop/Title */
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+	/* or 31px */
+	
+	
+	/* Black & White/100% */
+	
+	color: #231F20;
+	
+	
+	/* Inside auto layout */
+	
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+
+
+.entry-content {
+	a.slicky-control-prev,
+	a.slicky-control-next {
+		box-shadow: none;
+		border-bottom: none;
+		&:hover, &:focus, &:active {
+		box-shadow: none;
+		border-bottom: none;
+		}
+	}
+}
+
+.slicky-control-next-icon,
+.slicky-control-prev-icon {
+	color: #000;
+}
+
+.everise-slicky-slider-block.slicky-slider {
+	blockquote {
+		border-left: none;
+	}
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+	margin-bottom: 1em;
+	min-height: 160px;
+}
+
+.everise__picture {
+	position: relative;
+
+}
+
+.everise__picture__image {
+	width: 84.63px;
+	height: 84px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.round {
+	box-sizing: border-box;
+	width: 32px;
+	height: 32px;
+	left: calc(50% - 32px/2);
+	top: 0px;
+	border: 1px solid #231F20;
+}
+.firstIcon{
+	width: 50px;
+	height:50px;
+	left: 9px;
+	top: 8px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 130%;
+	/* identical to box height, or 16px */
+
+
+	/* Black & White/100% */
+
+	color: #231F20;
+
+}
